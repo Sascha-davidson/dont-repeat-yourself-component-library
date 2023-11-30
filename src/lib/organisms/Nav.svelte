@@ -9,16 +9,16 @@
         <NavLink LinkRoute="/" LinkText="Home" NavIcons="/images/home-icon.svg" NavIconsAls="" />
       </li>
       <li>
-        <NavLink LinkRoute="/players" LinkText="All Players" NavIcons="/images/all-players-icon.svg" NavIconsAls="" />
+        <NavLink LinkRoute="/AllPlayers" LinkText="All Players" NavIcons="/images/all-players-icon.svg" NavIconsAls="" />
       </li>
       <li>
-        <NavLink LinkRoute="/teams" LinkText="All Teams" NavIcons="/images/all-teams-icon.svg" NavIconsAls="" />
+        <NavLink LinkRoute="/AllTeams" LinkText="All Teams" NavIcons="/images/all-teams-icon.svg" NavIconsAls="" />
       </li>
       <li>
-        <NavLink LinkRoute="/tournaments" LinkText="All Tournaments" NavIcons="/images/all-tournaments-icon.svg" NavIconsAls="" />
+        <NavLink LinkRoute="/AllTournaments" LinkText="All Tournaments" NavIcons="/images/all-tournaments-icon.svg" NavIconsAls="" />
       </li>
       <li>
-        <NavLink LinkRoute="/players" LinkText="Current Tournament" NavIcons="/images/current-tournament-icon.svg" NavIconsAls="" />
+        <NavLink LinkRoute="/CurrentTournament" LinkText="Current Tournament" NavIcons="/images/current-tournament-icon.svg" NavIconsAls="" />
       </li>
     </ul>
   </nav>

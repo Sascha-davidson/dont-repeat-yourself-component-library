@@ -19,7 +19,7 @@
     font-size: 0.8rem;
     font-weight: 500;
     color: var(--primary-font-color);
-    aspect-ratio: 5/4;
+    aspect-ratio: 1;
   }
 
   img {

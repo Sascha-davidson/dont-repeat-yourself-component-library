@@ -27,53 +27,41 @@
 
 <style>
   main {
-    display: grid;
     grid-template-columns: 1.25fr 1.25fr 1fr 1fr;
-    grid-template-rows: 1.5fr 1.5fr 2fr;
-    height: 100vh;
-    width: 100%;
-    gap: 2rem;
+    grid-template-areas:
+      "CreateTournament CreateTournament CompletedTournaments CompletedTournaments"
+      "CreateTeam CreatePlayer CompletedTournaments CompletedTournaments"
+      "CurrentTournament CurrentTournament CurrentTournament Image";
   }
 
-  section,
   a {
     border-radius: 25px;
     box-shadow: var(--box-shadow);
     padding: 4vh 3vw;
   }
 
-  a:nth-of-type(1) a {
-    background-color: #e7fff7;
-    overflow: hidden;
-  }
-
-  /* tournaments new */
   a:nth-of-type(1) {
-    grid-area: 1 / 1 / 2 / 3;
+    grid-area: CreateTournament;
     background-color: #e7fff7;
   }
 
-  /* teams new */
   a:nth-of-type(2) {
-    grid-area: 2 / 1 / 2 / 2;
+    grid-area: CreateTeam;
     background-color: #e7fff7;
   }
 
-  /* players new */
   a:nth-of-type(3) {
-    grid-area: 2 / 2 / 2 / 3;
+    grid-area: CreatePlayer;
     background-color: #e7fff7;
   }
 
-  /* Completed Tournaments */
   a:nth-of-type(4) {
-    grid-area: 1 / 3 / 3 / 5;
+    grid-area: CompletedTournaments;
     background-color: #fff;
   }
 
-  /* Current Tournament */
   a:nth-of-type(5) {
-    grid-area: 3 / 1 / 3 / 4;
+    grid-area: CurrentTournament;
     background-color: #d6dcff;
   }
 
@@ -83,6 +71,8 @@
     object-fit: cover;
     box-shadow: var(--box-shadow);
     border-radius: 25px;
+    grid-area: Image;
+
   }
 
   /*RESPONSIVE KLOPT NOG NIET HELEMAAL*/

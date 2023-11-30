@@ -11,7 +11,7 @@
     InputType="text"
     InputID="AddPlayer"
     LableFor="AddPlayer"
-    LableText="* Add player ..."
+    LableText="* Player name ..."
   />
   <section>
     <Input
