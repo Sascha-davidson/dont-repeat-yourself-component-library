@@ -29,10 +29,10 @@
     outline: 3px solid white;
     outline-offset: -3px;
     box-shadow: var(--box-shadow);
-    font-size: 1rem;
     width: 100%;
     color: var(--text-color);
     transition: 0.3s ease-in-out;
+    font-size: 1rem;
   }
 
   input:hover,
