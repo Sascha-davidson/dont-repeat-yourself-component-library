@@ -1,6 +1,5 @@
 <script>
-    import Nav from "$lib/organisms/nav.svelte";
+    //import Nav from "$lib/organisms/nav.svelte";
 </script>
 
 <slot />
-<Nav />
