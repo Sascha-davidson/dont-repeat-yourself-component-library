@@ -6,7 +6,7 @@ Deze leertaak hoort bij sprint 16 Don't Repeat Yourself. Dit is een opdracht die
 
 Bij deze leertaak hoort de deeltaak:
 
-* [Component](https://github.com/fdnd-task/dont-repeat-yourself-component-building-block)
+* [Component Building Block](https://github.com/fdnd-task/dont-repeat-yourself-component-building-block)
 
 ## Doel van deze opdracht
 Je leert hoe je herbruikbare stukken code op een systematische manier ontsluit zodat jij en jouw mede frontenders ze kunnen gebruiken in andere projecten.
@@ -32,8 +32,6 @@ In deze leertaak vind je slechts een partiële instructie, namelijk voor het [op
 #### Structuur opzetten (team)
 
 Het opzetten van de structuur voor een component library is een beetje een gedoe maar het loont als je dit eenmaal gedaan hebt.
-
-**Disclaimer: De voorbeelden die wij geven zijn in SvelteKit, voel je vrij een ander framework te gebruiken als je daar in verder wilt!**
 
 1. Fork deze leertaak, in deze leertaak ga je de implementatie van de component library maken. Met andere woorden, je linkt in deze repository een andere repository welke de component library bevat.
 2. Maak een nieuwe repository aan op jouw GitHub omgeving, geef deze een logische naam, bijvoorbeeld: fdnd-components, bij de volgende stappen staat *CLib* als het om deze ‘andere’ repository gaat.
@@ -72,16 +70,9 @@ Als de structuur staat kan je verder gaan aan de ontwikkeling voor jouw opdracht
 
 ## Criteria
 
-Focus sprint 16 - De focus van deze sprint ligt op het hergebruik van code en ontwerpelementen.
-
-Voor deze leertaak gelden de gedragscriteria voor sprint 16: 
-
-* Methodisch handelen: Je richt in overleg projecten in volgens de development-lifecycle
-* Samenwerken: Je draagt verantwoording voor eigen resultaten, benoemt teamresultaten en informeert belanghebbenden over de voortgang
-* Probleemoplossend vermogen: Je selecteert de juiste principes, conventies en best-practices op het gebied van frontend, interface design en vormgeving om een passende oplossing voor een opdrachtgever te realiseren
-* Lerend vermogen: Je volgt aangeboden internationale ontwikkelingen in het vakgebied en maakt onder begeleiding keuzes over eigen ontwikkeling
 
 Deze opdracht is done als:
+
 - [ ] je een component library hebt gemaakt.
 - [ ] je hebt gewerkt volgens de verschillende fases van de development-lifecycle
 - [ ] je hebt je werk gedocumenteerd in de Readme en Wiki (user story, ontwerpbeslissingen, schetsen en code voorbeelden)
